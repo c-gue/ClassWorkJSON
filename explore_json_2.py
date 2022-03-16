@@ -43,7 +43,7 @@ data = [
         'colorband':{'title':'Magnitude'}
     },
     }]
-
+ 
 my_layout = Layout(title='Global Earthquakes')
 
 fig = {'data':data, 'layout':my_layout}
