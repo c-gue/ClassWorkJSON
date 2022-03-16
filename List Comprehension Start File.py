@@ -127,6 +127,8 @@ print(new2)
 string = 'Hello 12345 World'
 string1 = [num for num in string if num.isdigit()]
 print(string1)
+alpha = [i for i in string if i.isalpha()]
+print(alpha)
 
 # Output - ['1', '2', '3', '4', '5']
 

@@ -36,11 +36,12 @@ data = [
     'lon':lons,
     'lat':lats,
     'text':hover_texts,
-    'markers':{
+    'marker':{
+        'size':[5*mag for mag in mags],
         'color':mags,
-        'colorsclae':'Viridis',
+        'colorscale':'Viridis',
         'reversescale':True,
-        'colorband':{'title':'Magnitude'}
+        'colorbar':{'title':'Magnitude'}
     },
     }]
  
