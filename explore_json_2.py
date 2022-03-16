@@ -22,7 +22,7 @@ for eq in list_of_eqs:
     lons.append(lon)
     lats.append(lat)
     hover_texts.append(title)
-
+print(type[mag])
 print(mags[:10])
 print(lons[:10])
 print(lats[:10])
